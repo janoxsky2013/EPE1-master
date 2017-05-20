@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/black"
+    >
+    <TableRow
+        android:padding="0dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="Programador"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Nombres"
+            android:textSize="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvNombre2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Alejandro Jesús"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvApellido"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Apellidos"
+            android:textSize="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvApellido2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Pizarro Gutiérrez"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvEstablecimiento1"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Instituto"
+            android:textSize="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvEstablecimiento2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="IPCHILE"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvCarrera1"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Carrera"
+            android:textSize="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvCarrera2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Ingeniería Informática"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+
+        <TextView
+            android:id="@+id/tvRamo1"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Curso"
+            android:textSize="15dp"
+
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvRamo2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:text="Aplicaciones Móviles"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="5dip">
+    <TextView
+        android:id="@+id/tvCorreo1"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="Correo"
+        android:textSize="15dp"
+
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvCorreo2"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="janoxsky2013@gmail.com"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+</TableRow>
+
+    <TableRow
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnVolver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:background="#40B685"
+            android:textColor="@android:color/white"/>
+
+
+    </TableRow>
+
+</TableLayout>
